@@ -17,7 +17,7 @@ import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.widgets.Composite;
-import org.eclipse.swt.widgets.DirectoryDialog;
+//import org.eclipse.swt.widgets.DirectoryDialog;
 import org.eclipse.swt.widgets.Event;
 import org.eclipse.swt.widgets.Group;
 import org.eclipse.swt.widgets.Label;
@@ -450,13 +450,13 @@ public class IBMJDBCDriverTracingOptionsPane extends Composite implements
 			} else if (source == noneButton) {
 				setAllLevelsChecked(false);
 			} else if (source == browseDirectory) {
-				DirectoryDialog dialog = new DirectoryDialog(browseDirectory
-						.getShell(), SWT.OPEN);
-				dialog.setFilterPath(traceDirectoryText.getText().trim());
-				String directory = dialog.open();
-				if (directory != null) {
-					traceDirectoryText.setText(directory);
-				}
+//				DirectoryDialog dialog = new DirectoryDialog(browseDirectory
+//						.getShell(), SWT.OPEN);
+//				dialog.setFilterPath(traceDirectoryText.getText().trim());
+//				String directory = dialog.open();
+//				if (directory != null) {
+//					traceDirectoryText.setText(directory);
+//				}
 			}
 			parentDriverProvider.updateURL();
 			parentDriverProvider.setConnectionInformation();
