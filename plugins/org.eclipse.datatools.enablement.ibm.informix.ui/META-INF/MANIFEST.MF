@@ -9,7 +9,7 @@ Export-Package: org.eclipse.datatools.enablement.ibm.informix.internal.ui,
  org.eclipse.datatools.enablement.ibm.informix.internal.ui.drivers,
  org.eclipse.datatools.enablement.ibm.informix.ui.drivers
 Require-Bundle: org.eclipse.core.runtime,
- org.eclipse.ui,
+ org.eclipse.rap.ui,
  org.eclipse.datatools.connectivity,
  org.eclipse.datatools.connectivity.ui,
  org.eclipse.datatools.enablement.ibm.informix

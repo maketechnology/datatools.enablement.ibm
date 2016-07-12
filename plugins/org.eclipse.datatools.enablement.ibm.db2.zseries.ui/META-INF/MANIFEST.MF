@@ -8,7 +8,7 @@ Bundle-Vendor: %providerName
 Export-Package: org.eclipse.datatools.enablement.ibm.db2.zseries.internal.ui,
  org.eclipse.datatools.enablement.ibm.db2.zseries.internal.ui.drivers
 Require-Bundle: org.eclipse.core.runtime,
- org.eclipse.ui,
+ org.eclipse.rap.ui,
  org.eclipse.datatools.connectivity,
  org.eclipse.datatools.connectivity.ui,
  org.eclipse.datatools.enablement.ibm.db2.zseries,

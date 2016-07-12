@@ -10,7 +10,7 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.datatools.connectivity.ui,
  org.eclipse.datatools.enablement.ibm.db2.luw,
  org.eclipse.datatools.enablement.ibm.ui,
- org.eclipse.ui
+ org.eclipse.rap.ui
 Import-Package: com.ibm.icu.text;version="3.6.1",
  com.ibm.icu.util;version="3.6.1"
 Export-Package: org.eclipse.datatools.enablement.ibm.db2.luw.internal.ui,

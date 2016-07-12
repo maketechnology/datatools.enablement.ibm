@@ -6,7 +6,7 @@ Bundle-Version: 1.1.0.qualifier
 Bundle-Localization: plugin
 Bundle-Vendor: %providerName
 Require-Bundle: org.eclipse.core.runtime,
- org.eclipse.ui,
+ org.eclipse.rap.ui,
  org.eclipse.datatools.connectivity,
  org.eclipse.datatools.connectivity.ui,
  org.eclipse.datatools.enablement.ibm.db2.iseries,
